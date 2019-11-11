@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
@@ -21,15 +22,19 @@ public abstract class MainFragmentBinding extends ViewDataBinding {
   public final RecyclerView photosGrid;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final ImageView statusImage;
 
   @Bindable
   protected MainViewModel mViewModel;
 
   protected MainFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView photosGrid, ImageView statusImage) {
+      RecyclerView photosGrid, ProgressBar progressBar, ImageView statusImage) {
     super(_bindingComponent, _root, _localFieldCount);
     this.photosGrid = photosGrid;
+    this.progressBar = progressBar;
     this.statusImage = statusImage;
   }
 

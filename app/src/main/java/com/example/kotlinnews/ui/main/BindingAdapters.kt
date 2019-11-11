@@ -19,6 +19,7 @@ package com.example.kotlinnews.ui.main
 
 import android.view.View
 import android.widget.ImageView
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.net.toUri
 import androidx.databinding.BindingAdapter
@@ -35,9 +36,7 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<Children>?) {
     adapter.submitList(data)
 }
 
-/**
- * Uses the Glide library to load an image by URL into an [ImageView]
- */
+
 @BindingAdapter("imageUrl")
 fun bindImage(imgView: ImageView, imgUrl: String?) {
     imgUrl?.let {
@@ -67,6 +66,22 @@ fun bindStatus(statusImageView: ImageView, status: ApiStatus?) {
         }
         ApiStatus.DONE -> {
             statusImageView.visibility = View.GONE
+        }
+    }
+}
+
+
+@BindingAdapter("responseProgress")
+fun bindStatus(progressBar: ProgressBar, status: ApiStatus?) {
+    when (status) {
+        ApiStatus.LOADING -> {
+            progressBar.visibility = View.VISIBLE
+        }
+        ApiStatus.ERROR -> {
+            progressBar.visibility = View.GONE
+        }
+        ApiStatus.DONE -> {
+            progressBar.visibility = View.GONE
         }
     }
 }

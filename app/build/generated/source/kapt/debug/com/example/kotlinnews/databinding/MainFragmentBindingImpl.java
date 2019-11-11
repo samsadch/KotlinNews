@@ -24,16 +24,18 @@ public class MainFragmentBindingImpl extends MainFragmentBinding  {
     // Inverse Binding Event Handlers
 
     public MainFragmentBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private MainFragmentBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 2
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
+            , (android.widget.ProgressBar) bindings[3]
             , (android.widget.ImageView) bindings[2]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.photosGrid.setTag(null);
+        this.progressBar.setTag(null);
         this.statusImage.setTag(null);
         setRootTag(root);
         // listeners
@@ -162,6 +164,7 @@ public class MainFragmentBindingImpl extends MainFragmentBinding  {
         if ((dirtyFlags & 0xeL) != 0) {
             // api target 1
 
+            com.example.kotlinnews.ui.main.BindingAdaptersKt.bindStatus(this.progressBar, viewModelStatusGetValue);
             com.example.kotlinnews.ui.main.BindingAdaptersKt.bindStatus(this.statusImage, viewModelStatusGetValue);
         }
     }

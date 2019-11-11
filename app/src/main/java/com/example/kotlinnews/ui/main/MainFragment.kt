@@ -34,10 +34,18 @@ class MainFragment : Fragment() {
         binding.photosGrid.addItemDecoration(SpacesItemDecoration(spacingInPixels))
 
         viewModel.responses.observe(this, Observer {
-            if(null!=it){
+            /*if(null!=it){
                 (activity as AppCompatActivity).supportActionBar?.title = it.get(0).data.title
             }else{
                 (activity as AppCompatActivity).supportActionBar?.title = "list is empty"
+            }*/
+        })
+
+        viewModel.navigateToSelectedProperty.observe(this, Observer {
+
+            if ( null != it ) {
+                //this.findNavController().navigate(MainFragmentDirections.actionShowDetail(it))
+                viewModel.displayPropertyDetailsComplete()
             }
         })
 

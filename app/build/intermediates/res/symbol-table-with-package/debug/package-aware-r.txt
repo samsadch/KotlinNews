@@ -1266,6 +1266,7 @@ id parent_matrix
 id percent
 id photos_grid
 id pin
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
