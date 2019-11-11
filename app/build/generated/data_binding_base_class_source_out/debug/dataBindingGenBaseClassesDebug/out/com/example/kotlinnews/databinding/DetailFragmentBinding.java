@@ -26,15 +26,19 @@ public abstract class DetailFragmentBinding extends ViewDataBinding {
   @NonNull
   public final TextView titleText;
 
+  @NonNull
+  public final TextView urlText;
+
   @Bindable
   protected DetailViewModel mViewModel;
 
   protected DetailFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView detailsText, ImageView mainPhotoImage, TextView titleText) {
+      TextView detailsText, ImageView mainPhotoImage, TextView titleText, TextView urlText) {
     super(_bindingComponent, _root, _localFieldCount);
     this.detailsText = detailsText;
     this.mainPhotoImage = mainPhotoImage;
     this.titleText = titleText;
+    this.urlText = urlText;
   }
 
   public abstract void setViewModel(@Nullable DetailViewModel viewModel);

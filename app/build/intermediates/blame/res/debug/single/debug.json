@@ -28,12 +28,12 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/layout/design_navigation_menu.xml"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_loading_animation.xml.flat",
@@ -44,36 +44,36 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_btn_ripple_color.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/color/mtrl_btn_text_btn_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -104,12 +104,12 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/btn_checkbox_checked_mtrl.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -140,12 +140,12 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/color_mtrl_chip_background_color.xml.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/color/mtrl_chip_background_color.xml"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/color_mtrl_chip_background_color.xml.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/color/mtrl_chip_background_color.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_color_selector.xml.flat",
@@ -192,12 +192,12 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/40262f3bc554930477ffa0f04fb81973/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
@@ -316,12 +316,12 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/color/mtrl_tabs_icon_color_selector.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -356,12 +356,12 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/animator-v21/design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
-        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/drawable-v21/avd_hide_password.xml"
-    },
-    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_btn_radio_on_to_off_mtrl_animation.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
+        "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/43b7e33252bd8ca06b7bcd369c87f661/material-1.0.0/res/drawable-v21/avd_hide_password.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",

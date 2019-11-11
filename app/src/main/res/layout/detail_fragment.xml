@@ -24,6 +24,7 @@
                 android:layout_width="0dp"
                 android:layout_height="266dp"
                 android:scaleType="centerCrop"
+                app:imageUrl2="@{viewModel.imageUrl}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -35,10 +36,25 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:textColor="#de000000"
-                android:textSize="39sp"
+                android:textSize="26sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/main_photo_image"
-                tools:text="@{viewModel.displayChildTitle}" />
+                android:text="@{viewModel.displayChildData}"
+                tools:text="Title is shown here"/>
+
+            <TextView
+                android:id="@+id/url_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="#de000000"
+                android:textSize="14sp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_text"
+                android:text="@{viewModel.displayChildURL}"
+                tools:text="www.google.com"/>
 
             <TextView
                 android:id="@+id/details_text"
@@ -47,9 +63,12 @@
                 android:layout_marginTop="8dp"
                 android:textColor="#de000000"
                 android:textSize="20sp"
+                android:autoLink="web"
+                android:linksClickable="true"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/title_text"
-                tools:text="Details" />
+                app:layout_constraintTop_toBottomOf="@+id/url_text"
+                android:text="@{viewModel.displayChildSelftText}"
+                tools:text="Iam showing some details from post "/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

@@ -8,13 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import com.example.kotlinnews.R
 import com.example.kotlinnews.databinding.DetailFragmentBinding
 
 
 class DetailFragment : Fragment() {
 
-    private lateinit var viewModel: DetailViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val application = requireNotNull(activity).application
@@ -22,8 +22,12 @@ class DetailFragment : Fragment() {
         binding.lifecycleOwner = this
         val child = DetailFragmentArgs.fromBundle(arguments!!).selectedChild
         val viewModelFactory = DetailViewModelFactory(child, application)
-        (activity as AppCompatActivity).supportActionBar?.title = "Detail Fragment"
-        binding.viewModel = ViewModelProviders.of(this,viewModelFactory).get(DetailViewModel::class.java)
+
+        val viewModel = ViewModelProviders.of(this, viewModelFactory).get(DetailViewModel::class.java)
+        binding.viewModel = viewModel
+        viewModel.displayChildData.observe(this, Observer {
+            (activity as AppCompatActivity).supportActionBar?.title = it
+        })
         return binding.root
     }
 }

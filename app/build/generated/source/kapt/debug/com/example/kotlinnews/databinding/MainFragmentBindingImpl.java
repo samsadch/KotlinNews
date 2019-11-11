@@ -159,13 +159,13 @@ public class MainFragmentBindingImpl extends MainFragmentBinding  {
         if ((dirtyFlags & 0xdL) != 0) {
             // api target 1
 
-            com.example.kotlinnews.ui.main.BindingAdaptersKt.bindRecyclerView(this.photosGrid, viewModelResponsesGetValue);
+            com.example.kotlinnews.BindingAdaptersKt.bindRecyclerView(this.photosGrid, viewModelResponsesGetValue);
         }
         if ((dirtyFlags & 0xeL) != 0) {
             // api target 1
 
-            com.example.kotlinnews.ui.main.BindingAdaptersKt.bindStatus(this.progressBar, viewModelStatusGetValue);
-            com.example.kotlinnews.ui.main.BindingAdaptersKt.bindStatus(this.statusImage, viewModelStatusGetValue);
+            com.example.kotlinnews.BindingAdaptersKt.bindStatus(this.progressBar, viewModelStatusGetValue);
+            com.example.kotlinnews.BindingAdaptersKt.bindStatus(this.statusImage, viewModelStatusGetValue);
         }
     }
     // Listener Stub Implementations

@@ -119,7 +119,7 @@ public class GridViewItemBindingImpl extends GridViewItemBinding  {
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            com.example.kotlinnews.ui.main.BindingAdaptersKt.bindImage(this.dataImage, childDataThumbnail);
+            com.example.kotlinnews.BindingAdaptersKt.bindImage(this.dataImage, childDataThumbnail);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.title, childDataTitle);
         }
     }

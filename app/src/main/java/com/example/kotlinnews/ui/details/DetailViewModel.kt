@@ -15,8 +15,20 @@ class DetailViewModel(marsProperty: Children, app: Application) : AndroidViewMod
         _selectedChild.value = marsProperty
     }
 
-    val displayChildTitle = Transformations.map(selectedChild) {
+    val displayChildData = Transformations.map(selectedChild) {
         it.data.title
+    }
+
+    val displayChildURL = Transformations.map(selectedChild) {
+        it.data.url
+    }
+
+    val displayChildSelftText = Transformations.map(selectedChild) {
+        it.data.selftext
+    }
+
+    val imageUrl = Transformations.map(selectedChild) {
+        it.data.thumbnail
     }
 
     // The displayPropertyType formatted Transformation Map LiveData, which displays the
