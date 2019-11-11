@@ -1186,6 +1186,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id detailFragment
+id details_text
 id dialog_button
 id dimensions
 id direct
@@ -1227,6 +1228,7 @@ id listMode
 id list_item
 id main
 id mainFragment
+id main_photo_image
 id masked
 id media_actions
 id message
@@ -1329,6 +1331,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_text
 id top
 id topPanel
 id touch_outside
