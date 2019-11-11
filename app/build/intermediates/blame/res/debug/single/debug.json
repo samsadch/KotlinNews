@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\res\\merged\\debug\\layout_detail_fragment.xml.flat",
+        "source": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\src\\main\\res\\layout\\detail_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },

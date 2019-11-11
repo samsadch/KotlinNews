@@ -6,7 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.example.kotlinnews.R
+import com.example.kotlinnews.databinding.MainFragmentBinding
 
 class MainFragment : Fragment() {
 
@@ -18,7 +22,14 @@ class MainFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
-        return inflater.inflate(R.layout.main_fragment, container, false)
+        /*val binding: FragmentTitleBinding = DataBindingUtil.inflate(
+            inflater, R.layout.fragment_title, container, false)*/
+        val binding = DataBindingUtil.inflate<MainFragmentBinding>(inflater,R.layout.main_fragment,container,false)
+        binding.message.setOnClickListener {view:View->
+            view.findNavController().navigate(MainFragmentDirections.actionMainFragmentToDetailFragment())
+        }
+        (activity as AppCompatActivity).supportActionBar?.title = "Main Fragment"
+        return binding.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
