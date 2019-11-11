@@ -38,7 +38,7 @@
                 android:textSize="39sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/main_photo_image"
-                tools:text="Title" />
+                tools:text="@{viewModel.displayChildTitle}" />
 
             <TextView
                 android:id="@+id/details_text"

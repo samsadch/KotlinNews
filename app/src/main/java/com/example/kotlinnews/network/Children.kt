@@ -1,10 +1,14 @@
 package com.example.kotlinnews.network
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+@Parcelize
 data class Children(
         val `data`: DataX,
         val kind: String?
-)
+):Parcelable
 
+@Parcelize
 data class DataX(
         val all_awardings: List<AllAwarding>,
         val allow_live_comments: Boolean,
@@ -102,8 +106,9 @@ data class DataX(
         val visited: Boolean,
         val whitelist_status: String?,
         val wls: Int?
-)
+):Parcelable
 
+@Parcelize
 data class AllAwarding(
         val award_type: String?,
         val coin_price: Int?,
@@ -123,20 +128,21 @@ data class AllAwarding(
         val start_date: String?,
         val subreddit_coin_reward: Int?,
         val subreddit_id: String?
-)
+):Parcelable
 
+@Parcelize
 data class ResizedIcon(
         val height: Int?,
         val url: String?,
         val width: Int?
-)
-
+):Parcelable
+@Parcelize
 data class Gildings(
         val gid_2: Int?
-)
-
+):Parcelable
+@Parcelize
 class MediaEmbed(
-)
-
+):Parcelable
+@Parcelize
 class SecureMediaEmbed(
-)
+):Parcelable

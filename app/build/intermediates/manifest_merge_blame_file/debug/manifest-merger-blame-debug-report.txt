@@ -29,33 +29,34 @@
 19-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:12:9-35
-21        android:theme="@style/AppTheme" >
-21-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:13:9-40
-22        <activity android:name="com.example.kotlinnews.MainActivity" >
-22-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:14:9-20:20
-22-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:14:19-47
-23            <intent-filter>
-23-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:15:13-19:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:16:17-69
-24-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:16:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:18:17-77
-26-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:18:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <provider
-30-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-31            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-31-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-32            android:authorities="com.example.kotlinnews.lifecycle-process"
-32-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-33            android:exported="false"
-33-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-34            android:multiprocess="true" />
-34-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-35    </application>
-36
-37</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.kotlinnews.MainActivity" >
+23-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:14:9-20:20
+23-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:16:17-69
+25-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:18:17-77
+27-->/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+32-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+33            android:authorities="com.example.kotlinnews.lifecycle-process"
+33-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+34            android:exported="false"
+34-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+35            android:multiprocess="true" />
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/samsadcv/.gradle/caches/transforms-2/files-2.1/9d76e67ac462b886a3b2f3df08bc5a55/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+36    </application>
+37
+38</manifest>

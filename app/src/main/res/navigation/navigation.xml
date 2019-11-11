@@ -21,7 +21,6 @@
         tools:layout="@layout/detail_fragment" >
         <argument
             android:name="selectedChild"
-            app:argType="com.example.kotlinnews.network.Children"
-            />
+            app:argType="com.example.kotlinnews.network.Children" />
     </fragment>
 </navigation>
