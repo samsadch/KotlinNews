@@ -220,7 +220,7 @@ public class DetailFragmentBindingImpl extends DetailFragmentBinding  {
         if ((dirtyFlags & 0x31L) != 0) {
             // api target 1
 
-            com.example.kotlinnews.BindingAdaptersKt.bindImage2(this.mainPhotoImage, viewModelImageUrlGetValue);
+            com.example.kotlinnews.BindingAdaptersKt.bindImage(this.mainPhotoImage, viewModelImageUrlGetValue);
         }
         if ((dirtyFlags & 0x34L) != 0) {
             // api target 1

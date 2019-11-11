@@ -39,21 +39,6 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<Children>?) {
 
 @BindingAdapter("imageUrl")
 fun bindImage(imgView: ImageView, imgUrl: String?) {
-    imgUrl?.let {
-        val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
-        Glide.with(imgView.context)
-            .load(imgUri)
-            .apply(
-                RequestOptions()
-                    .placeholder(R.drawable.loading_animation)
-                    .error(R.drawable.ic_broken_image)
-            )
-            .into(imgView)
-    }
-}
-
-@BindingAdapter("imageUrl2")
-fun bindImage2(imgView: ImageView, imgUrl: String?) {
     if (imgUrl != null) {
         if (!imgUrl.isEmpty()) {
             val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
@@ -70,7 +55,6 @@ fun bindImage2(imgView: ImageView, imgUrl: String?) {
         imgView.visibility = View.GONE
     }
 }
-
 
 @BindingAdapter("responseApiStatus")
 fun bindStatus(statusImageView: ImageView, status: ApiStatus?) {
