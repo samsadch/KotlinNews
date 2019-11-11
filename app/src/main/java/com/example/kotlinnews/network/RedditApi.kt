@@ -23,10 +23,10 @@ private val retrofit = Retrofit.Builder()
 
 interface RedditApi {
     @GET("r/kotlin/.json")
-    fun getProperties(@Query("filter") type: String):
+    fun getData():
             Deferred<ModelResponse>
 }
 
-object MarsApi {
+object Api {
     val retrofitService : RedditApi by lazy { retrofit.create(RedditApi::class.java) }
 }
