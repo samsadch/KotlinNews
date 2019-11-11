@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.example.kotlinnews.R
 import com.example.kotlinnews.SpacesItemDecoration
 import com.example.kotlinnews.databinding.MainFragmentBinding
@@ -44,7 +45,7 @@ class MainFragment : Fragment() {
         viewModel.navigateToSelectedProperty.observe(this, Observer {
 
             if ( null != it ) {
-                //this.findNavController().navigate(MainFragmentDirections.actionShowDetail(it))
+                this.findNavController().navigate(MainFragmentDirections.actionMainFragmentToDetailFragment(it))
                 viewModel.displayPropertyDetailsComplete()
             }
         })

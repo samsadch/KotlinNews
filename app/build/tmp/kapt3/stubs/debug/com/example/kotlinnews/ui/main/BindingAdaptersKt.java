@@ -11,9 +11,6 @@ public final class BindingAdaptersKt {
     java.util.List<com.example.kotlinnews.network.Children> data) {
     }
     
-    /**
-     * * Uses the Glide library to load an image by URL into an [ImageView]
-     */
     @androidx.databinding.BindingAdapter(value = {"imageUrl"})
     public static final void bindImage(@org.jetbrains.annotations.NotNull()
     android.widget.ImageView imgView, @org.jetbrains.annotations.Nullable()

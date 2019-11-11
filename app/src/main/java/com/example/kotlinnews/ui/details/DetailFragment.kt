@@ -21,8 +21,10 @@ class DetailFragment : Fragment() {
     private lateinit var viewModel: DetailViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val binding: DetailFragmentBinding = DataBindingUtil.inflate(
-            inflater, R.layout.detail_fragment, container, false)
+        val application = requireNotNull(activity).application
+        val binding = DetailFragmentBinding.inflate(inflater)
+        binding.lifecycleOwner = this
+        val child = DetailFragmentArgs.fromBundle(arguments!!).selectedChild
         (activity as AppCompatActivity).supportActionBar?.title = "Detail Fragment"
         return binding.root
     }

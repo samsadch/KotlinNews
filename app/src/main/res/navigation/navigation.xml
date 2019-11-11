@@ -18,5 +18,10 @@
         android:id="@+id/detailFragment"
         android:name="com.example.kotlinnews.ui.details.DetailFragment"
         android:label="detail_fragment"
-        tools:layout="@layout/detail_fragment" />
+        tools:layout="@layout/detail_fragment" >
+        <argument
+            android:name="selectedChild"
+            app:argType="com.example.kotlinnews.network.Children"
+            />
+    </fragment>
 </navigation>

@@ -1,1 +1,1 @@
-[{"navFile":"src/main/res/navigation/navigation.xml","javaFiles":["com.example.kotlinnews.ui.main.MainFragmentDirections"]}]
+[{"navFile":"src/main/res/navigation/navigation.xml","javaFiles":["com.example.kotlinnews.ui.main.MainFragmentDirections","com.example.kotlinnews.ui.details.DetailFragmentArgs"]}]
