@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_fragment.xml",
-        "source": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\src\\main\\res\\layout\\main_fragment.xml"
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_fragment.xml",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/main_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_activity.xml",
-        "source": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\src\\main\\res\\layout\\main_activity.xml"
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/main_activity.xml",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detail_fragment.xml",
-        "source": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\src\\main\\res\\layout\\detail_fragment.xml"
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/detail_fragment.xml",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/detail_fragment.xml"
     }
 ]

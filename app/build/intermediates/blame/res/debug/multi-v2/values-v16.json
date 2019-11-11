@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\samsad.c\\.gradle\\caches\\transforms-2\\files-2.1\\24a7253224fbbd6ba976d1463387d3bd\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/40262f3bc554930477ffa0f04fb81973/core-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\samsad.c\\.gradle\\caches\\transforms-2\\files-2.1\\a5d8b413841743e915ee2c53ea0fcfd9\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

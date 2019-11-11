@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\samsad.c\\.gradle\\caches\\transforms-2\\files-2.1\\24a7253224fbbd6ba976d1463387d3bd\\core-1.1.0\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "3104",
-                        "endColumns": "100",
-                        "endOffsets": "3200"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\samsad.c\\.gradle\\caches\\transforms-2\\files-2.1\\a5d8b413841743e915ee2c53ea0fcfd9\\appcompat-1.1.0\\res\\values-ms\\values-ms.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/values-ms/values-ms.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\samsad.c\\.gradle\\caches\\transforms-2\\files-2.1\\3f02c0dd714668d54405a18c29f78697\\navigation-ui-2.1.0\\res\\values-ms\\values-ms.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/40262f3bc554930477ffa0f04fb81973/core-1.1.0/res/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3104",
+                        "endColumns": "100",
+                        "endOffsets": "3200"
+                    }
+                },
+                {
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/105481e82d9e5a16a88c5e5f597b1434/jetified-navigation-ui-2.1.0/res/values-ms/values-ms.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

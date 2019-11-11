@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\samsad.c\\Desktop\\KotlinNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\samsad.c\\.gradle\\caches\\transforms-2\\files-2.1\\a5d8b413841743e915ee2c53ea0fcfd9\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

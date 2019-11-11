@@ -1,7 +1,0 @@
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\MainActivity.kt
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\network\RedditApi.kt
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\network\RedditResponse.kt
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\ui\details\DetailFragment.kt
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\ui\details\DetailViewModel.kt
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\ui\main\MainFragment.kt
-C:\Users\samsad.c\Desktop\KotlinNews\app\src\main\java\com\example\kotlinnews\ui\main\MainViewModel.kt
