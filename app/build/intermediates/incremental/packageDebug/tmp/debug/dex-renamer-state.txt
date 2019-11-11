@@ -1,4 +1,4 @@
-#Mon Nov 11 21:47:47 GST 2019
+#Mon Nov 11 21:53:00 GST 2019
 base.0=/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

@@ -14,10 +14,6 @@ import com.example.kotlinnews.databinding.DetailFragmentBinding
 
 class DetailFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = DetailFragment()
-    }
-
     private lateinit var viewModel: DetailViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -25,14 +21,9 @@ class DetailFragment : Fragment() {
         val binding = DetailFragmentBinding.inflate(inflater)
         binding.lifecycleOwner = this
         val child = DetailFragmentArgs.fromBundle(arguments!!).selectedChild
+        val viewModelFactory = DetailViewModelFactory(child, application)
         (activity as AppCompatActivity).supportActionBar?.title = "Detail Fragment"
+        binding.viewModel = ViewModelProviders.of(this,viewModelFactory).get(DetailViewModel::class.java)
         return binding.root
     }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(DetailViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
-
 }
