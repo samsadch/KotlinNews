@@ -953,6 +953,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen spacing
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -1067,11 +1068,15 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_broken_image
+drawable ic_connection_error
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable loading_animation
+drawable loading_img
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1178,6 +1183,7 @@ id coordinator
 id custom
 id customPanel
 id dataBinding
+id data_image
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1206,6 +1212,7 @@ id filled
 id fixed
 id forever
 id ghost_view
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1226,7 +1233,6 @@ id line1
 id line3
 id listMode
 id list_item
-id main
 id mainFragment
 id main_photo_image
 id masked
@@ -1258,6 +1264,7 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
+id photos_grid
 id pin
 id progress_circular
 id progress_horizontal
@@ -1305,6 +1312,7 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
+id status_image
 id stretch
 id submenuarrow
 id submit_area
@@ -1421,6 +1429,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout detail_fragment
+layout grid_view_item
 layout main_activity
 layout main_fragment
 layout mtrl_layout_snackbar

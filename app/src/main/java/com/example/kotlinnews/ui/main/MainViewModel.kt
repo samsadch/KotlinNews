@@ -32,7 +32,6 @@ class MainViewModel : ViewModel() {
 
 
     init {
-        //getMarsRealEstateProperties(MarsApiFilter.SHOW_ALL)
         getData()
     }
 
@@ -55,5 +54,14 @@ class MainViewModel : ViewModel() {
     override fun onCleared() {
         super.onCleared()
         viewModelJob.cancel()
+    }
+
+    fun displayPropertyDetails(marsProperty: Children) {
+        _navigateToSelectedProperty.value = marsProperty
+    }
+
+
+    fun displayPropertyDetailsComplete() {
+        _navigateToSelectedProperty.value = null
     }
 }

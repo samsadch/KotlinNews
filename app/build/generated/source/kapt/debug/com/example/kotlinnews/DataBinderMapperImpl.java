@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.kotlinnews.databinding.DetailFragmentBindingImpl;
+import com.example.kotlinnews.databinding.GridViewItemBindingImpl;
 import com.example.kotlinnews.databinding.MainActivityBindingImpl;
 import com.example.kotlinnews.databinding.MainFragmentBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -22,14 +23,17 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_DETAILFRAGMENT = 1;
 
-  private static final int LAYOUT_MAINACTIVITY = 2;
+  private static final int LAYOUT_GRIDVIEWITEM = 2;
 
-  private static final int LAYOUT_MAINFRAGMENT = 3;
+  private static final int LAYOUT_MAINACTIVITY = 3;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final int LAYOUT_MAINFRAGMENT = 4;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlinnews.R.layout.detail_fragment, LAYOUT_DETAILFRAGMENT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlinnews.R.layout.grid_view_item, LAYOUT_GRIDVIEWITEM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlinnews.R.layout.main_activity, LAYOUT_MAINACTIVITY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.kotlinnews.R.layout.main_fragment, LAYOUT_MAINFRAGMENT);
   }
@@ -48,6 +52,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new DetailFragmentBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for detail_fragment is invalid. Received: " + tag);
+        }
+        case  LAYOUT_GRIDVIEWITEM: {
+          if ("layout/grid_view_item_0".equals(tag)) {
+            return new GridViewItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for grid_view_item is invalid. Received: " + tag);
         }
         case  LAYOUT_MAINACTIVITY: {
           if ("layout/main_activity_0".equals(tag)) {
@@ -106,18 +116,21 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(2);
+    static final SparseArray<String> sKeys = new SparseArray<String>(4);
 
     static {
       sKeys.put(0, "_all");
+      sKeys.put(1, "viewModel");
+      sKeys.put(2, "child");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
       sKeys.put("layout/detail_fragment_0", com.example.kotlinnews.R.layout.detail_fragment);
+      sKeys.put("layout/grid_view_item_0", com.example.kotlinnews.R.layout.grid_view_item);
       sKeys.put("layout/main_activity_0", com.example.kotlinnews.R.layout.main_activity);
       sKeys.put("layout/main_fragment_0", com.example.kotlinnews.R.layout.main_fragment);
     }

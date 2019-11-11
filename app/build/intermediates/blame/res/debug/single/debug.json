@@ -36,6 +36,10 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_loading_animation.xml.flat",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/drawable/loading_animation.xml"
+    },
+    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -338,6 +342,10 @@
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_ic_broken_image.xml.flat",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/drawable/ic_broken_image.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -838,6 +846,10 @@
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_loading_img.xml.flat",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/drawable/loading_img.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_mtrl_snackbar_background.xml.flat",
@@ -1612,6 +1624,10 @@
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/color-v23/abc_tint_default.xml"
     },
     {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/layout_grid_view_item.xml.flat",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/grid_view_item.xml"
+    },
+    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_unchecked_mtrl.xml.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable/btn_checkbox_unchecked_mtrl.xml"
     },
@@ -1698,6 +1714,10 @@
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/samsadcv/.gradle/caches/transforms-2/files-2.1/cc0c25c84f97f1c5cf2c8a57dfb4f58d/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable_ic_connection_error.xml.flat",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/drawable/ic_connection_error.xml"
     },
     {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",

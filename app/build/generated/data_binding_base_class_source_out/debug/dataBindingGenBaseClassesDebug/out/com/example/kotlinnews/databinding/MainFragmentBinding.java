@@ -4,28 +4,40 @@ package com.example.kotlinnews.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 import com.example.kotlinnews.R;
+import com.example.kotlinnews.ui.main.MainViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class MainFragmentBinding extends ViewDataBinding {
   @NonNull
-  public final ConstraintLayout main;
+  public final RecyclerView photosGrid;
 
   @NonNull
-  public final TextView message;
+  public final ImageView statusImage;
+
+  @Bindable
+  protected MainViewModel mViewModel;
 
   protected MainFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout main, TextView message) {
+      RecyclerView photosGrid, ImageView statusImage) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.main = main;
-    this.message = message;
+    this.photosGrid = photosGrid;
+    this.statusImage = statusImage;
+  }
+
+  public abstract void setViewModel(@Nullable MainViewModel viewModel);
+
+  @Nullable
+  public MainViewModel getViewModel() {
+    return mViewModel;
   }
 
   @NonNull

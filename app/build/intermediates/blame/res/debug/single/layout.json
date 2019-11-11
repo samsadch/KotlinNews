@@ -8,6 +8,10 @@
         "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/main_activity.xml"
     },
     {
+        "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/grid_view_item.xml",
+        "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/grid_view_item.xml"
+    },
+    {
         "merged": "/Users/samsadcv/Desktop/latest/KotlinNews/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/detail_fragment.xml",
         "source": "/Users/samsadcv/Desktop/latest/KotlinNews/app/src/main/res/layout/detail_fragment.xml"
     }
